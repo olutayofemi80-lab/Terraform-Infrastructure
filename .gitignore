@@ -2,6 +2,7 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
+terraform.tfvars
 *.tfplan
 *.pem
 crash.log
@@ -11,3 +12,5 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 .vscode/
+# Lock file
+# KEEP .terraform.lock.hcl tracked
